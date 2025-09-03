@@ -80,7 +80,7 @@ export default function Home() {
             <div className="text-gray-600">개발 경력 (년)</div>
           </div>
           <div className="bg-white rounded-xl p-8 shadow-lg text-center">
-            <div className="text-4xl font-bold text-green-600 mb-2">15+</div>
+            <div className="text-4xl font-bold text-green-600 mb-2">5+</div>
             <div className="text-gray-600">완료 프로젝트</div>
           </div>
           <div className="bg-white rounded-xl p-8 shadow-lg text-center">

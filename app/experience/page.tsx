@@ -5,55 +5,45 @@ import { Building2, GraduationCap } from 'lucide-react'
 
 const experiences = [
   {
-    type: 'work',
-    title: '시니어 프론트엔드 개발자',
-    company: '테크 스타트업',
-    period: '2023.03 - 현재',
+    type: 'education',
+    title: '클라우드 데브옵스 프론트엔드&백엔드 자바 풀스택 개발자 취업캠프',
+    company: '중앙정보기술인재개발원',
+    period: '2025.07 - 2026.02',
     icon: Building2,
     achievements: [
-      'React 기반 SaaS 플랫폼 프론트엔드 개발 및 유지보수',
-      'TypeScript 도입으로 코드 안정성 30% 향상',
-      '신입 개발자 멘토링 및 코드 리뷰 진행',
-      '사용자 경험 개선으로 고객 만족도 25% 상승'
-    ]
-  },
-  {
-    type: 'work',
-    title: '풀스택 개발자',
-    company: 'IT 솔루션 회사',
-    period: '2021.06 - 2023.02',
-    icon: Building2,
-    achievements: [
-      'Node.js 기반 백엔드 API 개발 및 데이터베이스 설계',
-      'React를 활용한 관리자 대시보드 개발',
-      'AWS 인프라 구축 및 CI/CD 파이프라인 구성',
-      '레거시 시스템 마이그레이션 프로젝트 리드'
-    ]
-  },
-  {
-    type: 'work',
-    title: '주니어 개발자',
-    company: '웹 에이전시',
-    period: '2020.03 - 2021.05',
-    icon: Building2,
-    achievements: [
-      '기업 웹사이트 및 이커머스 플랫폼 개발',
-      'WordPress, PHP 기반 프로젝트 참여',
-      '반응형 웹 디자인 구현',
-      '웹 접근성 및 SEO 최적화 경험'
+      '클라우드 기반 DevOps 환경 구축 및 관리',
+      'Java Spring Boot를 활용한 백엔드 개발',
+      'React, Vue.js를 활용한 프론트엔드 개발',
+      'AWS, Docker, Kubernetes를 활용한 클라우드 인프라 구축',
+      'CI/CD 파이프라인 구축 및 자동화',
+      '마이크로서비스 아키텍처 설계 및 구현'
     ]
   },
   {
     type: 'education',
-    title: '컴퓨터공학과 학사',
-    company: '한국대학교',
-    period: '2016.03 - 2020.02',
+    title: '전공심화과정',
+    company: '동서울대학교',
+    period: '2024.03 - 2025.02',
     icon: GraduationCap,
     achievements: [
-      '전공 GPA 3.8/4.5',
-      '프로그래밍 동아리 회장 활동',
-      '해커톤 대회 우수상 수상',
-      '졸업 프로젝트: AI 기반 추천 시스템'
+      '학점: 4.5/4.5 (만점)',
+      '심화 전공 과정 이수',
+      '프로젝트 기반 실무 교육',
+      '산업체 연계 프로젝트 참여'
+    ]
+  },
+  {
+    type: 'education',
+    title: '컴퓨터공학과 3년제',
+    company: '동서울대학교',
+    period: '2022.03 - 2024.02',
+    icon: GraduationCap,
+    achievements: [
+      '학점: 4.15/4.5',
+      '컴퓨터공학 전공 이수',
+      '프로그래밍 기초 및 알고리즘 학습',
+      '데이터베이스 설계 및 관리',
+      '웹 개발 기초 및 프로젝트 수행'
     ]
   }
 ]

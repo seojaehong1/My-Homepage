@@ -35,8 +35,8 @@ export default function Contact() {
     {
       icon: Phone,
       title: '전화번호',
-      value: '+82 10-1234-5678',
-      href: 'tel:+821012345678'
+      value: '010-3030-7038',
+      href: 'tel:+821030307038'
     },
     {
       icon: MapPin,
