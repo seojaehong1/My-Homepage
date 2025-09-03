@@ -5,6 +5,30 @@ import { Github, ExternalLink } from 'lucide-react'
 
 const projects = [
   {
+    title: 'JAVA 프로젝트',
+    description: 'Java와 Spring Framework를 활용한 백엔드 개발 프로젝트입니다. 객체지향 프로그래밍, 디자인 패턴, REST API 설계 및 구현 경험을 포함합니다.',
+    image: '/api/placeholder/400/300',
+    technologies: ['Java', 'Spring', 'Maven', 'Eclipse', 'MySQL'],
+    githubUrl: 'https://github.com/seojaehong1/JAVA',
+    demoUrl: '#'
+  },
+  {
+    title: 'Logic Puzzle API',
+    description: '논리 퍼즐 게임을 위한 REST API 서비스입니다. 다양한 퍼즐 타입을 지원하며, 사용자 인증, 점수 시스템, 퍼즐 생성 알고리즘을 구현했습니다.',
+    image: '/api/placeholder/400/300',
+    technologies: ['Java', 'Spring Boot', 'REST API', 'JWT', 'MySQL'],
+    githubUrl: 'https://github.com/seojaehong1/logic-puzzle-api',
+    demoUrl: '#'
+  },
+  {
+    title: 'Recommendation System',
+    description: '사용자 기반 추천 시스템 프로젝트입니다. 머신러닝 알고리즘을 활용하여 개인화된 추천 서비스를 제공하며, 데이터 분석 및 처리 경험을 포함합니다.',
+    image: '/api/placeholder/400/300',
+    technologies: ['Python', 'Machine Learning', 'Pandas', 'NumPy', 'Scikit-learn'],
+    githubUrl: 'https://github.com/seojaehong1/recommendation-system',
+    demoUrl: '#'
+  },
+  {
     title: '차량 과속 탐지 시스템',
     description: 'Raspberry Pi와 OpenCV, CNN을 활용한 실시간 차량 과속 탐지 시스템입니다. 카메라로 차량을 감지하고 속도를 측정하여 과속 차량을 자동으로 탐지합니다.',
     image: '/api/placeholder/400/300',
@@ -17,30 +41,6 @@ const projects = [
     description: 'Google OCR API와 JWT 인증을 활용한 냉장고 관리 애플리케이션입니다. 음식 사진을 촬영하면 OCR로 텍스트를 인식하고 유통기한을 관리합니다.',
     image: '/api/placeholder/400/300',
     technologies: ['Java', 'Spring', 'Google OCR API', 'JWT', 'MySQL'],
-    githubUrl: '#',
-    demoUrl: '#'
-  },
-  {
-    title: 'REST API 서비스',
-    description: 'Swagger를 활용한 REST API 설계 및 구현 프로젝트입니다. JWT 토큰 인증, ERD 설계, 클래스 다이어그램을 통한 체계적인 백엔드 개발을 진행했습니다.',
-    image: '/api/placeholder/400/300',
-    technologies: ['Java', 'Spring', 'REST API', 'Swagger', 'JWT', 'MySQL'],
-    githubUrl: '#',
-    demoUrl: '#'
-  },
-  {
-    title: 'AI 개발 도구 연동 시스템',
-    description: 'Cursor와 Claude AI를 활용한 MVP 서버 구축 및 Git 연동 프로젝트입니다. 프롬프트 엔지니어링을 통해 코드 분석 및 리뷰 자동화 시스템을 구현했습니다.',
-    image: '/api/placeholder/400/300',
-    technologies: ['Cursor', 'Claude AI', 'Git', 'MVP', 'Prompt Engineering'],
-    githubUrl: '#',
-    demoUrl: '#'
-  },
-  {
-    title: '웹 개발 프로젝트',
-    description: 'Django와 Python을 활용한 웹 애플리케이션 개발입니다. Docker를 이용한 컨테이너화, AWS를 통한 배포, Terminal을 활용한 서버 관리 경험을 포함합니다.',
-    image: '/api/placeholder/400/300',
-    technologies: ['Python', 'Django', 'Docker', 'AWS', 'Linux', 'Terminal'],
     githubUrl: '#',
     demoUrl: '#'
   }
